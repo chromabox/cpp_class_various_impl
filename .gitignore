@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+ringbuffer_sampl
+threadpool_sampl
+browse.out*
+BROWSE.OUT*
+
