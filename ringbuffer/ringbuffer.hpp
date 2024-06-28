@@ -53,7 +53,7 @@ public:
 	// リングバッファの最後にオブジェクトを追加する
 	// 最終に達してしまった場合は先頭の指し示している箇所に上書きする
 	// value: リングバッファに追加したいオブジェクト
-	void push(int value)
+	void push(_T value)
 	{
 		buffer[tail] = value;
 		tail = (tail + 1) % capacity;
